@@ -1,0 +1,47 @@
+/* Sidebar.css */
+
+.side-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: silver;
+  width: 175px;
+  background: rgb(51, 51, 51);
+}
+
+.side-content{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: slategrey;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.side-item{
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  font-size: 13px;
+}
+
+.side-avatar {
+  margin-top: 30px;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+}
+
+.side-search-Ccontainer {
+  margin-top: 20px;
+}
+
+.side-search-input {
+  padding: 8px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}

@@ -1,0 +1,32 @@
+.collapsible-container {
+  position: relative;
+}
+
+.header {
+  cursor: pointer;
+  transition: height 0.3s; /* Add a smooth transition effect for the height change */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.expanded .header {
+    height: 100px; /* Set a fixed height for the header when expanded */
+}
+
+.collapsible.content {
+  padding: 6px;
+  background-color: #eeeeee;
+}
+
+.collapsible-img {
+  cursor: pointer;
+}
+  
+.collapsible-avatarNavbar {
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+    border-radius: 20%;
+  }
+
+
+  

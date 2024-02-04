@@ -1,0 +1,71 @@
+.user-reviews-cards-container{
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+}
+.user-reviews-cards-reviews{
+    background-color :cadetblue;
+
+}
+.user-reviews-cards-likes{
+    background-color: salmon;
+}
+.user-reviews-cards-disLikes{
+    background-color: black;
+    color: whitesmoke;
+}
+.user-reviews-cards-texts{
+    background-color :aqua;
+}
+.user-reviews-cards-img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.user-reviews-cards-user-img{
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.button1,
+.button2,
+.button3,
+.button4 {
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid black; 
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.button1 {
+    background : linear-gradient(45deg ,#060606 , #0026ffe2 , #3e3eee) ;
+    color: #fff; /* White text */
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.button2 {
+    background : linear-gradient(45deg ,#033c23 , #036024e2 , #0a8542) ;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.button3 {
+    background : linear-gradient(45deg ,#490505 , #bc0606 , #c13131) ;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.button4 {
+    background : linear-gradient(45deg ,#bd390c , #fb3a00e2 , #ff5c04) ;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+}

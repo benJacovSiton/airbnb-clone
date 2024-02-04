@@ -1,0 +1,17 @@
+.welcome-container{
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.welcome-button{
+    background : linear-gradient(45deg ,#b1adab , #7b7b7be2 , #2d2c2c) ;
+    margin: 4px;
+    color: whitesmoke;
+}

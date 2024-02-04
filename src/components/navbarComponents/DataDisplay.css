@@ -1,0 +1,11 @@
+.data-display-container{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.data-display-info{
+    font-size: small;
+    font-style: italic;
+    color :whitesmoke;
+}

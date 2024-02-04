@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.box {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 350px;
+}
+
+.icon img {
+    width: 50px;
+}
+
+.form {
+    margin-top: 15px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+input {
+    width: calc(100% - 12px);
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 3px;
+}
+
+input[type="radio"] {
+    margin-right: 3px;
+}
+
+/* Display radio buttons and spans on the same line */
+.form-group div {
+    display: flex;
+    align-items: center;
+}
+
+/* Adjust styling for spans */
+.form-group div span {
+    margin-right: 6px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(169, 7, 7, 0.817);
+}
+
+button:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+
+.link {
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    align-self: flex-end;
+}
+
+.link:hover {
+    background-color: #ffcc00;
+    cursor: pointer;
+}

@@ -1,0 +1,73 @@
+  .users-emotions-container {
+    display: grid;
+    gap: 1rem;
+    background: rgba(0, 0, 0, 0.877);
+    grid-template-areas: "exit exit"
+                         "title title"
+                         "card card"
+  }
+
+  .users-emotions-exit{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+    grid-area: exit;
+}
+
+.users-emotions-title{
+  margin-left: 0.5rem;
+  display: flex;
+  justify-self: flex-start;
+  align-items: flex-start;
+  color: aquamarine;
+  grid-area: title;
+
+}
+
+.users-emotions-cards {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+    width: 75vw;
+    grid-area: card;
+  }
+
+
+.users-emotions-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+  color: black;
+  width: 200px;
+  height: 180px;
+  justify-self: center;
+}
+
+.users-emotions-card-text{
+  font-style: italic;
+  border:black solid 3px;
+  text-align: center;
+  background-color: darksalmon;
+}
+
+.users-emotions-card-img-container {
+  object-fit: cover;
+  object-position: center; 
+  overflow: hidden; 
+}
+
+.users-emotions-card-img{
+  max-height: 80px;
+  max-width: 80px;
+  border-radius: 8px;
+  margin: auto; 
+}
+.users-emotions-card:hover {
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+  transform: translateY(-3px) scale(1.1);
+}

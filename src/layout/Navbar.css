@@ -1,0 +1,36 @@
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(51, 51, 51);
+    width: 100%; /* Set a percentage width */
+    height: 12vh; /* Set full height */
+    text-align: center;
+  }
+  
+  .nav-box {
+    background-color: black;
+    text-align: center;
+  }
+
+  .nav-box-user {
+    margin-left: 15px;
+  }
+
+  .nav-avatar {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+  }
+
+  .nav-user-container{
+    display: flex;
+    background-color: black;
+
+  }
+
+  
+
+  

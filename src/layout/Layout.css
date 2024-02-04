@@ -1,0 +1,24 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Set a minimum height to cover the entire viewport */
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Change to row to place the main content next to the sidebar */
+}
+
+.mainContent {
+  flex: 3;
+  padding: 20px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Set your preferred background color */
+  color: #fff; /* Set your preferred text color */
+}

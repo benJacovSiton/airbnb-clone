@@ -1,0 +1,44 @@
+/* Residences.css */
+
+.residences-container-body {
+  display: grid;
+  padding: 2rem;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); 
+  /* grid-template-rows: repeat(auto-fit, minmax(15rem, 1fr));  */
+
+}
+
+
+.residences-tool-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.residences-message-container {
+    max-width: 400px; /* Set a maximum width for the container */
+    margin: 20px auto; /* Center the container and add some margin */
+  }
+  
+  .residences-no-apartments-message {
+    color: red; /* Set the desired text color */
+    font-style: italic; /* Italicize the text */
+    margin-top: 10px; /* Add some top margin */
+    padding: 15px; /* Add padding for better visibility */
+    border: 1px solid #ccc; /* Add a border */
+    background-color: #ffe6e6; /* Set a light background color */
+    border-radius: 5px; /* Add rounded corners */
+    /* Add any additional styles you want */
+  }
+  
+  .iconContainer {
+    margin-right: 10px;
+  }
+  
+  /* Add styles for the entire container */
+  .messageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

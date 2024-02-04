@@ -1,0 +1,138 @@
+/* last-chanceCard.css */
+.last-chance-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px;
+    margin-left: 210px;
+  }
+  .last-chance-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    border: 1px solid silver;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background-color: #333; /* Black background color */
+    color: silver; /* Silver text color */
+    margin-top: 2px;
+    margin-bottom: 30px;
+  }
+  
+  .last-chance-img-container {
+    padding: 10px;
+    object-fit: cover;
+    object-position: center; /* Center the image within the container */
+    overflow: hidden; /* Hide any overflow content */
+  }
+  
+  .last-chance-image {
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block; /* Make the image a block element */
+    margin: auto; /* Set left and right margins to 'auto' */
+  }
+  
+  
+  .last-chance-info {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .last-chance-card-section {
+    text-align: center; /* Center text in top section */
+  }
+  
+  .last-chance-title {
+    font-size: 1.2rem;
+    margin-bottom: 1px;
+  }
+  
+  .last-chance-location {
+    color: #555;
+    margin-bottom: 2px; 
+  }
+  
+  .last-chance-capacity{
+    font-size: 1.2rem;
+    background-color: aqua;
+    color: black;
+    text-align: center; /* Center text in amenities list */
+  }
+  
+  .last-chance-bottom-section {
+    margin-top: 2px; /* Adjusted margin for bottom-section */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .last-chance-price {
+    font-size: 1.2rem;
+    background-color: white;
+    color:olivedrab;
+    text-align: center;
+    margin-bottom: 2px;
+  }
+  
+  .last-chance-amenities {
+    list-style-type: none;
+    background-color: bisque;
+    color: #333;
+    padding: 2px;
+    margin: 50px;
+    text-align: start; /* Center text in amenities list */
+  }
+  
+  .last-chance-rating {
+    color: #4caf50;
+    font-weight: bold;
+    text-align: center; /* Center text in rating div */
+  }
+  
+  .last-chance-actions {
+    margin-top: 2px;
+    background-color: antiquewhite;
+    color: cadetblue;
+    text-align: center;
+  }
+  
+  .last-chance-actions button {
+    font: inherit;
+    cursor: pointer;
+    color: #77002e;
+    border: 1px solid #77002e;
+    background-color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    margin-top: 2px; /* Add margin to the top of the button */
+  }
+  
+  .last-chance-actions button:hover,
+  .last-chance-actions button:active {
+    background-color: #ffe2ed;
+  }
+  
+  .last-chance-img-container {
+    display: flex;
+    justify-content: flex-start;
+    object-fit: cover;
+    object-position: center; /* Center the image within the container */
+    overflow: hidden; /* Hide any overflow content */
+  }
+  
+  .last-chance-owner-image{
+    max-height: 65px;
+    max-width: 65px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 14px;
+    margin-top: 5px;
+  }

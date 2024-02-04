@@ -1,0 +1,25 @@
+.account-container{
+    display: grid;
+    grid-template-areas: "hey hey"
+                         "description description"
+                         "images images "
+                         "owner onwer";                       
+}
+
+.account-title{
+    grid-area: hey;
+}
+
+.account-description{
+    grid-area: description;
+}
+
+.account-images{
+    grid-area: images;
+}
+
+.account-owner{
+    grid-area: owner;
+}
+
+

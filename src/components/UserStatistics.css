@@ -1,0 +1,35 @@
+.user-statistics-container{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    height: fit-content;
+    margin-left: 45px;
+    top: 31%;
+    left: 75%;
+    background: linear-gradient(45deg, #ff6b6b, #3a1c71);
+;
+}
+
+.user-statistics-list-frist-item{
+    margin-left: 4px;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.user-statistics-list-second-item{
+    margin-left: 4px;
+    color: whitesmoke;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.user-statistics-list-Third-item{
+    margin-left: 4px;
+    color: whitesmoke;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.user-statistics-list-Fourth-item{
+    margin-left: 4px;
+    color: whitesmoke;
+    font-family :Arial, Helvetica, sans-serif
+}

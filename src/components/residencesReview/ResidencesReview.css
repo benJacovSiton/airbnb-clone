@@ -1,0 +1,102 @@
+  
+  .residences-review-tool-bar {
+       display: grid;
+       margin: 0;
+       grid-template-columns: 50% auto;
+       grid-template-rows: 60px auto 60px;
+       grid-template-areas: "exit exit"
+                            "like disLike"
+                            "textReview textReview"
+                            "rateReview sendReview";
+  }
+
+  .residences-review-exit{
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        grid-area: exit;
+    }
+
+    .residences-review-like{
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        background-color :cornflowerblue;
+        grid-area: like;
+    }
+
+    .residences-review-disLike{
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        /* background-color :thistle; */
+        grid-area: disLike;
+    }
+
+    .residences-review-textReview{
+        margin-top: 0.5rem;
+        background-color :tan;
+        height: 95%;
+        grid-area: textReview;
+    }
+
+    .residences-review-rateReview{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        /* background-color :springgreen; */
+        grid-area: rateReview;
+    }
+
+    .residences-review-sendReview{
+        background-color :salmon;
+        margin-top: 1rem;
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        justify-content: center;
+        justify-content: space-between;
+        grid-area: sendReview;
+    }
+
+  .residences-review-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  }
+
+  .residences-review-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    font-size: 1rem;
+    color: bisque;
+    text-align: center;
+    background: linear-gradient(45deg ,#030e46 , #8a0b5ce2 , #052f78);
+  }
+
+  .residences-review-card-review-message{
+    color: black;
+    background-color: wheat;
+    text-align: left;
+    font-style: italic;
+  }
+
+  .residences-review-img-container{
+    padding: 10px;
+    object-fit: cover;
+    object-position: center; /* Center the image within the container */
+    overflow: hidden; /* Hide any overflow content */
+  }
+
+  .residences-review-user-img{
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 8px;
+    display: block; 
+    margin: auto; 
+    /* background-color: blueviolet; */
+  }
+

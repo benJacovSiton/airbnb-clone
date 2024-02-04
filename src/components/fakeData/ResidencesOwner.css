@@ -1,0 +1,7 @@
+.residences-owner-container{
+    background : linear-gradient(45deg ,#060606 , #0026ffe2 , #898989) ;
+    display : flex ;
+    padding: 1rem;
+    flex-direction : column;
+    color: whitesmoke;
+}

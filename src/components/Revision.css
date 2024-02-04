@@ -1,0 +1,100 @@
+.revision-container {
+    max-width: 600px;
+    max-height: 100%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #ff6b6b, #3a1c71);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .revision-img-container {
+    padding: 10px;
+    object-fit: cover;
+    object-position: center; /* Center the image within the container */
+    overflow: hidden; /* Hide any overflow content */
+  }
+  
+  .revision-img {
+    max-height: 180px;
+    max-width: 680px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block; 
+    margin: auto; 
+  }
+  
+  .revision-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 4px;
+  }
+  
+  .revision-info-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .revision-info-item {
+    margin-bottom: 15px;
+  }
+  
+  .revision-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+  
+  .revision-value {
+    font-size: 1rem;
+  }
+  
+  /* Add a solid border to the info items */
+  .revision-info-item {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 3px;
+  }
+  
+  /* Style the last info item without a border */
+  .revision-info-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  
+  .revision-horizontal-line {
+    border: 0.5px solid #fff;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .revision-chat-button {
+    background: linear-gradient(45deg, #fc466b, #3f5efb);
+    color: whitesmoke;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    transition: background 0.3s;
+  }
+  
+  .revision-chat-button:hover {
+    background: linear-gradient(45deg, #fc466b, #3f5efb);
+    opacity: 0.9;
+  }
+
+  .revision-return-button{
+    padding: 15px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    background: #3a1c71;
+    color: whitesmoke;
+  }
+  
